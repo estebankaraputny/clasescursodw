@@ -1,0 +1,62 @@
+* /*<-- selector Universal*/ {
+   /*Atributo o propiedad -->*/  /* <--- Valor*/
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif; /*Tipo de letra/fuente*/
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header{
+    width: 100%; /*Ancho del elemento*/
+    padding: 20px; /*Margenes internos*/
+    background-color: black; /*Color de fondo*/
+    color: white; /*Color de letra*/
+} 
+
+.lista{
+    list-style: none; /*Elimina los puntos de la lista*/
+}
+
+.enlace{
+    text-decoration: none; /*Elimina el subrayado*/
+    color: white;
+    margin: 20px;
+}
+
+.titulo-producto{
+    text-align: center; /*Alínea el texto*/
+    font-size: 30px; /*Modifica el tamaño del letra*/
+    margin: 20px 0 0 0; /*Modifica los margenes exteriores (arriba derecha abajo izquierda)*/
+}
+
+.producto{
+    display: inline-block; /*Indica que el contenedor ocupa determinado espacio*/
+    width: 200px;
+    height: 300px;
+    border-radius: 15px; /*Modifica lor border del elemento*/
+    margin: 0 20px 0 20px ;
+}
+
+.imagen{
+    width: 100%;
+    height: 50%;
+}
+
+.pie-de-pagina{
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.contenedor-redes{
+    margin: 20px 0 0 0;
+}
+
+.enlace-redes{
+    color: rgb(21, 78, 201);
+    text-decoration: none;
+}
