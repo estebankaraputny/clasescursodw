@@ -1,0 +1,202 @@
+* /*<-- selector Universal*/ {
+   /*Atributo o propiedad -->*/  /* <--- Valor*/
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif; /*Tipo de letra/fuente*/
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header{
+    width: 100%; /*Ancho del elemento*/
+    padding: 20px; /*Margenes internos*/
+    background-color: black; /*Color de fondo*/
+    color: white; /*Color de letra*/
+    display: flex; /*Iniciamos flexbox*/
+    justify-content: space-between; /* los ítems se distribuyen uniformemente a lo largo del eje*/
+} 
+
+.nav{
+    width: 40%;
+}
+
+.lista{
+    width: 100%;
+    list-style: none; /*Elimina los puntos de la lista*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlace{
+    text-decoration: none; /*Elimina el subrayado*/
+    color: white;
+    margin: 20px;
+}
+
+.portada > img {
+    width: 100%;
+    height: 25rem;
+}
+
+
+.titulo-producto{
+    text-align: center; /*Alínea el texto*/
+    font-size: 30px; /*Modifica el tamaño del letra*/
+    margin: 20px 0 0 0; /*Modifica los margenes exteriores (arriba derecha abajo izquierda)*/
+}
+
+.producto{
+    display: inline-block; /*Indica que el contenedor ocupa determinado espacio*/
+    width: 200px;
+    height: 300px;
+    border-radius: 15px; /*Modifica lor border del elemento*/
+    margin: 0 20px 0 20px ;
+}
+
+.imagen{
+    width: 100%;
+    height: 50%;
+}
+
+.boton-agregar{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 5px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.pie-de-pagina{
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.contenedor-redes{
+    margin: 20px 0 0 0;
+}
+
+.enlace-redes{
+    color: rgb(21, 78, 201);
+    text-decoration: none;
+}
+
+/*PÁGINA NOSOTROS*/
+.sobre-empresa{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+.title-team{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.section-team{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-team{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-team{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.historia{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.info-historia{
+    width: 40%;
+}
+
+.info-historia > h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.video-yt{
+    border-radius: 15px;
+}
+
+/*PÁGINA CONTACTO*/
+
+.main-contact{
+    text-align: center;
+}
+
+.content-form{
+    margin: 5rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgb(33, 73, 108);
+    text-align: center;
+}
+
+.label-form{
+    color: aliceblue;
+}
+
+.input-form{
+    width: 100%;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.button-form{
+    width: 100%;
+    background-color: cadetblue;
+    border: none;
+    height: 2rem;
+    color: white;
+    border-radius: 15px;
+}
+
+
+/*EJEMPLOS PARA IMAGENES*/
+
+.body-example{
+    background-color: blue;
+}
+
+.contenedor{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    background-color: brown;
+    width: 25%;
+    height: 150px;
+}
+
+.items > p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
